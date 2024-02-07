@@ -1,0 +1,538 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body,html{
+    font-family: Roboto,sans-serif,arial;
+    background: #f0f3fa;
+}
+.width-100{
+width: 100%;
+float: left;
+}
+.container{
+width: 1500px;
+margin: 0px auto;
+}
+.top-header{
+background: rgb(23, 155, 192);
+padding: 5px 0px;
+border-bottom: 2px solid #3131315e;
+}
+.news-list{
+background: rgb(172, 201, 209);
+/* opacity: 0.6; */
+border-radius: 4px ;
+color: red;
+padding: 5px;
+font-size: 20px;
+}
+.headquote{
+font-size: 18px;
+/* padding-top: 5px; */
+color: white;
+width: 80%;
+}
+.header-menu{
+position: relative;
+box-shadow: 0px 2px 5px 0px rgb(81, 76, 76);
+}
+.logo{
+width: fit-content;
+float: left;
+}
+
+
+.main-menu{
+list-style: none;
+float: right;
+margin-top: 20px;
+}
+.main-menu a:hover{
+    color: rgb(192, 97, 20);
+    text-decoration:underline;
+}
+.main-menu a{
+font-weight: 600;
+color: black;
+font-size: 20px;
+text-decoration: none;
+}
+.main-menu li{
+float: left;
+padding: 12px 15px;
+}
+.slider-width{
+    width: 100%;
+    height: 80vh;
+}
+.margin-top-50{
+margin-top: 50px;
+}
+.width-33{
+width: 33%;
+float: left;
+}
+.latest-news{
+margin-left: 10px;
+margin-right: 10px;
+background-color: white;
+padding: 20px;
+height: 500px;
+margin-bottom: 30px;
+}
+.heading-sec{
+width: 100%;
+float: left;
+border-bottom: 2px solid gray;
+padding-bottom: 0px;
+margin: 0px;
+margin-bottom: 15px;
+border: 2px solid gray;
+padding-top: 15px;
+padding-left: 15px;
+background: rgb(23, 155, 192);
+color: white;
+}
+.head-title{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 5px;
+}
+.latest-news-ul{
+padding: 0px;
+list-style: none;
+line-height: 30px;
+}
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.upcoming-event-list{
+padding: 0px;
+list-style: none;
+}
+.upcoming-event-list li{
+width: 100%;
+float: left;
+margin-bottom: 15px;
+
+}
+.event-date{
+background: rgb(121, 121, 241);
+width: 30px;
+color: white;
+float: left;
+text-align: center;
+font-size: 14px;
+padding: 8px;
+margin-right: 10px;
+}
+.notice-board{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.notice-board-list{
+padding: 0px;
+list-style: none;
+line-height: 40px;
+}
+.notice-board-list li{
+width: 100/5;
+float: left;
+margin-bottom: 15px;
+}
+
+
+
+
+
+/* -----------------courses -------------------*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+p{
+    color: rgb(39, 21, 57);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: rgb(247, 221, 221);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 50px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rosybrown;
+    cursor: pointer;
+}
+/* @media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+} */
+
+
+/* -----------------------Campus---------------- */
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+
+/*------------------ Facilities----------------- */
+.facility{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.facility-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 10px;
+    text-align: left;
+
+}
+.facility-col img{
+    width: 100%;
+    border-radius: 8px;
+}
+.facility-col p{
+    padding: 0;
+}
+.facility-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+/*  --------------Testimonial-------------------- */
+.testimonial{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    background: rgb(194, 188, 218);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testimonial-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.testimonial-col p{
+padding: 0;
+}
+.testimonial-col h3{
+    text-align: right;
+    margin-top: 15px;
+}
+.testimonial-col .fa{
+    color: rgb(0, 0, 0);
+}
+
+/* @media(max-width:700px){
+    .testimonial-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+
+    }
+} */
+
+
+
+.chatbot img{
+    
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        position: fixed;
+        right: 50px;
+        bottom: 23px;
+    
+}
+/* ------------footer------- */
+.footer{
+    background-color: rgb(134, 119, 102);
+    width: 100%;
+    color: rgb(5, 1, 1);
+    text-align: center;
+    padding: 15px 0;
+    font-size: x-large;
+}
+.footer p{
+    color: rgb(0, 0, 0);
+}
+.footer h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight:bold;
+    font-size: xx-large;
+}
+.footer .fa{
+    color: rgb(37, 37, 66);
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o{
+    color: red;
+}
+
+
+
+/* ------------------------About Us Page---------------------- */
+
+.about-heading{
+    text-align: center;
+}
+.about-us-img{
+    width: 100%;
+    height: 50vh;
+    /* opacity: 0.7; */
+}
+.about-header h1{
+    margin-top: 100px;
+}
+.about-dtc{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.about-dtc h2{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.about-dtc p{
+    line-height: 2;
+    letter-spacing: normal;
+    font-size: large;
+}
+
+/* ------------------------Academics Page---------------------- */
+
+.academics-heading{
+    text-align: center;
+}
+
+.academics{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.academics-row{
+    text-align: left;
+}
+.btech-type{
+    margin-left: 50px;
+    line-height: 40px;
+}
+.academics-col{
+    flex-basis: 45%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ------------------------Admission Page---------------------- */
+.admission-heading h1{
+    text-align: center;
+}
+
+.admission{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 150px;
+}
+.admission :nth-child(1){
+    line-height: 30px;
+    /* font-weight: bold; */
+}
+.div2{
+    margin-top: 30px;
+    line-height: 30px;
+    /* font-weight: bold; */
+}
+.div3{
+    line-height: 30px;
+    margin-top: 40px;
+    /* font-weight: bold; */
+}
+.admission-pdf{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.admission-pdf a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+.admission a{
+    text-decoration: none;
+}
+
+.ad-co-p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.admission-content p{
+    line-height: 30px;
+    font-size: medium;
+
+}
+.barch ol {
+margin-left: 30px;
+}
+
+/* ------------------------Resources Page---------------------- */
+
+.resources-heading{
+    text-align: center;
+}
+.line{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.resource-content{
+    max-width: 80vw;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+}
+.btn1 {
+    background-color: #00b6d1;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin:12px 0px;
+}
+
+
+
+.item {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.item-line {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+
+
+
+
+
+
+/* -----------------Contact Us Page------------ */
+
+
+.contact-heading{
+    text-align: center;
+}
+.contact-us-img{
+    width: 100%;
+    height: 50vh;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+     width: 100%;
+    
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
